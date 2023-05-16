@@ -15,7 +15,7 @@ public class ClasificadorPalabras {
         palabrasPorInicial = new HashMap<>();
     }
 
-    public void agregarPalabra(String palabra) {
+    public void añadirPalabra(String palabra) {
         palabra = palabra.trim().toLowerCase();
         char inicial = palabra.charAt(0);
         if (!palabrasPorInicial.containsKey(inicial)) {
